@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.ua204mas.easyparkingapp"
+    versionCode = "1"
+    version     = "1.0.0" >
+
+  <name>EasyParking App</name>
+
+  <description>
+    Nesta aplicação é possível visualizar os lugares disponíveis em alguns parques de estacionamento de Aveiro, assim como a sua classificação, comentários de utilizadores anteriores, pontos de interesse próximos e ainda as tarifas. Esta aplicação foi desenvolvida no âmbito de um projeto a ser apresentado na cadeira de MAS da UA em 2020.
+  </description>
+
+  <author href="https://nei.web.ua.pt/home" email="alexandrepp07@ua.pt">
+    Alexandre Pinto, Gonçalo Machado, Afonso Silva
+  </author>
+
+</widget>

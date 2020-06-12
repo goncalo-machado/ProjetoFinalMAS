@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Easy Parking</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar top -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-secondary fixed-top">
+        <div class="container">
+            <img class="navbar-brand" src="Images\logotipo_base2.png" style="height:40px; width:40px" />
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Togglenavigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="HomePage.html">Homepage</a></li>
+                    <li class="nav-item"><a class="nav-link" href="MapsPage.html">Mapas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ParquesPage.html">Parques</a></li>
+                    <li class="nav-item"><a class="nav-link" href="FavoritosPage.html">Favoritos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="PerfilPage.html">Perfil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="SettingsPage.html">Definições</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <br />
+    <br />
+    <br />
+
+    <!-- Página -->
+    <div class="container">
+        <header style="text-align:center; margin-bottom:50px">
+            <span class="h2" style="color:green">Parque de estacionamento: </span><span class="h2" style="color:green">Parque da Nossa Senhora dos Aflitos</span>
+        </header>
+
+        <button type="button" class="btn btn-secondary col-4" style="margin-bottom:25px; border-color:lightgray;">
+            <h4>Lugares existentes</h4> <span class="badge badge-primary">130</span>
+        </button>
+
+        <button type="button" class="btn btn-secondary col-4" style="margin-bottom:25px; border-color:lightgray;">
+            <h4>Lugares disponíveis</h4> <span class="badge badge-success">100</span>
+        </button>
+
+        <button type="button" class="btn btn-secondary col-4" style="margin-bottom:25px; border-color:lightgray;">
+            <h4>Distância Parque</h4> <span class="badge badge-info">2.1 kms</span>
+        </button>
+
+
+
+        <div class="col-12">
+            <div class="col-sm-12 col-md-4" style="margin-bottom:20px;">
+                <h4> Pontos de Interesse:</h4>
+                <br />
+                <p><b>Jardim do Rossio </b></p>
+                <p><b>Forum Aveiro </b></p>
+                <p><b>Ria de Aveiro </b></p>
+            </div>
+
+            <div class="col-sm-12 col-md-8" style="margin-bottom:20px;">
+                <h4> Comentários sobre o parque:</h4>
+                <br />
+                <p><b>Anónimo da Silva: </b> Bons preços</p>
+                <p><b>Anónimo da Costa: </b> Lugares espaçosos</p>
+                <p><b>Anónimo de Castro: </b> Parque no centro da cidade</p>
+            </div>
+        </div>
+
+        <div class="col-12" style="margin-bottom:30px;">
+            <a class="h4 col-sm-12 col-md-3">Avaliação:</a>
+            <div class="estrelas col-sm-12 col-md-9">
+                <input type="radio" id="cm_star-empty" name="fb" value="" checked />
+                <label for="cm_star-1"><i class="fa"></i></label>
+                <input type="radio" id="cm_star-1" name="fb" value="1" disabled checked />
+                <label for="cm_star-2"><i class="fa"></i></label>
+                <input type="radio" id="cm_star-2" name="fb" value="2" disabled checked />
+                <label for="cm_star-3"><i class="fa"></i></label>
+                <input type="radio" id="cm_star-3" name="fb" value="3" disabled />
+                <label for="cm_star-4"><i class="fa"></i></label>
+                <input type="radio" id="cm_star-4" name="fb" value="4" disabled />
+                <label for="cm_star-5"><i class="fa"></i></label>
+                <input type="radio" id="cm_star-5" name="fb" value="5" disabled />
+            </div>
+        </div>
+
+
+        <div class="dropdown">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" style="width:100%; margin-bottom:50px">
+                <h4>Tabela de preços</h4>
+            </button>
+            <div class="dropdown-menu" style="width:100%">
+                <a class="dropdown-item"> 20 mins - 0.40€</a>
+                <a class="dropdown-item"> 1 hora - 0.80€</a>
+                <a class="dropdown-item"> 2 horas -  1.40€</a>
+                <a class="dropdown-item"> 12 horas -  8€</a>
+                <a class="dropdown-item"> 24 horas -  15€</a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
