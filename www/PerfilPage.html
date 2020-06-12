@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Easy Parking</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar top -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-secondary fixed-top">
+        <div class="container">
+            <img class="navbar-brand" src="Images\logotipo_base2.png" style="height:40px; width:40px" />
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Togglenavigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Homepage</a></li>
+                    <li class="nav-item"><a class="nav-link" href="MapsPage.html">Mapas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ParquesPage.html">Parques</a></li>
+                    <li class="nav-item"><a class="nav-link" href="FavoritosPage.html">Favoritos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="PerfilPage.html">Perfil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="SettingsPage.html">Definições</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <br />
+    <br />
+    <br />
+
+    <!-- Página -->
+    <div class="container">
+        <header style="text-align:center; margin-bottom:50px">
+            <span class="h2" style="color:green">Perfil de </span><span class="h2" style="color:green">Anónimo da Silva</span>
+        </header>
+
+        <button type="button" class="btn btn-secondary col-4" style="margin-bottom:25px; border-color:lightgray;">
+            <h4>Telemóvel</h4> <span class="badge badge-success">912345678</span>
+        </button>
+
+        <button type="button" class="btn btn-secondary col-4" style="margin-bottom:25px; border-color:lightgray;">
+            <h4>Saldo</h4> <span class="badge badge-success">50€</span>
+        </button>
+
+        <button type="button" class="btn btn-secondary col-4" style="margin-bottom:25px; border-color:lightgray;">
+            <h4>Premium</h4> <span class="badge badge-success">Desativado</span>
+        </button>
+
+        <button type="button" class="btn btn-secondary col-12" style="margin-bottom:25px; border-color:lightgray;">
+            <h4>Parque de Estacionamento mais visitado</h4> <span class="badge badge-success">Parque do Forum</span>
+        </button>
+
+        <button type="button" class="btn btn-outline-dark col-12" style="margin-bottom:25px" onclick="location.href=''">
+            <h4>Carregar Saldo</h4>
+        </button>
+
+        <button type="button" class="btn btn-outline-dark col-12" style="margin-bottom:25px" onclick="location.href=''">
+            <h4>Histórico</h4>
+        </button>
+
+        <button type="button" class="btn btn-outline-dark col-12" style="margin-bottom:25px" onclick="location.href='LoginPage.html'">
+            <h4>Logout</h4>
+        </button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
